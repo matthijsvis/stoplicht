@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kruispunt</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body background="../foto/verkeer/kruising.png">
+
+<!--helaas werkt het nog niet even goed op verschillende formaat beeldschermen-->
+
+<div class="verkeer">
+    <h1>verkeer</h1>
+    <p>automatisch werkend stoplicht en auto</p>
+    <p>druk op de juiste knop (maar een keer drukken!)</p>
+</div>
+
+<div class="formulier">
+    <form class="stoplicht">
+        <p>stoplicht</p>
+        <input type="button" value="aanzetten" onclick="aanzetten()">
+        <input type="button" value="knipperen" onclick="knipperen()">
+        <input type="button" value="uitzetten" onclick="uitzetten()">
+    </form>
+    <form class="auto">
+        <p>auto</p>
+        <input type="button" value="start" onclick="starten()">
+        <input type="button" value="stop" onclick="stop()">
+        <input type="button" value="opnieuw" onclick="opnieuw()">
+        <img id="auto" src="../foto/verkeer/autogroen.png" width="40px" height="80px">
+        <img id="auto2" src="../foto/verkeer/autorood3.png" width="40px" height="80px">
+        <img id="auto3" src="../foto/verkeer/autorood2.png" width="80px" height="80px">
+        <img id="auto4" src="../foto/verkeer/autoblauw.png" width="80px" height="40px">
+        <img id="stoplicht" src="../foto/verkeer/stoplichtuit.png" width="40px" height="80px">
+        <img id="stoplicht2" src="../foto/verkeer/stoplichtuit2.png" width="40px" height="80px">
+        <img id="stoplicht3" src="../foto/verkeer/stoplichtuit3.png" width="80px" height="40px">
+        <img id="stoplicht4" src="../foto/verkeer/stoplichtuit4.png" width="80px" height="40px">
+    </form>
+</div>
+
+<div class="zebrapad1">
+    <img src="../foto/verkeer/zebrapad.png">
+</div>
+
+<div class="zebrapad2">
+    <img src="../foto/verkeer/zebrapad.png">
+</div>
+
+<div class="zebrapad3">
+    <img src="../foto/verkeer/zebrapad2.png">
+</div>
+
+<div class="zebrapad4">
+    <img src="../foto/verkeer/zebrapad2.png">
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

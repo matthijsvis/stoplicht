@@ -1,0 +1,95 @@
+.verkeer{
+    background: darkcyan;
+    width: 325px;
+    height: 100px;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow:5px 5px 10px olivedrab;
+}
+
+h1{
+    margin-bottom: 0;
+    color: aliceblue;
+}
+
+.stoplicht{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: darkcyan;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.auto{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: darkcyan;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.formulier{
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+    height: auto;
+    margin-top: 15px;
+}
+
+p{
+    color: aliceblue;
+    margin: 5px;
+}
+
+input:hover{
+    color: cornflowerblue;
+}
+
+.zebrapad1{
+    width: 100px;
+    height: 150px;
+    margin-left: 395px;
+    margin-top: 63px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.zebrapad2{
+    width: 100px;
+    height: 150px;
+    margin-left: 740px;
+    margin-top: -148px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.zebrapad3{
+    width: 150px;
+    height: 100px;
+    margin-left: 540px;
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.zebrapad4{
+    width: 150px;
+    height: 100px;
+    margin-left: 540px;
+    margin-top: -410px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
